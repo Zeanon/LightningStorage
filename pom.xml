@@ -5,7 +5,7 @@
 
     <groupId>de.leonhard</groupId>
     <artifactId>lightningstorage</artifactId>
-    <version>2.5.4</version>
+    <version>2.5</version>
     <name>LightningStorage</name>
     <description>Store data in a better way</description>
     <url>https://github.com/JavaFactoryDev/lightningstorage</url>
@@ -161,12 +161,12 @@
         </repository>
     </repositories>
     <dependencies>
+
         <!-- TOML -->
         <dependency>
             <groupId>de.leonhard</groupId>
             <artifactId>toml</artifactId>
             <version>1.0</version>
-            <scope>compile</scope>
         </dependency>
 
         <!-- YAML -->
@@ -174,7 +174,6 @@
             <groupId>com.esotericsoftware.yamlbeans</groupId>
             <artifactId>yamlbeans</artifactId>
             <version>1.08</version>
-            <scope>compile</scope>
         </dependency>
 
         <!-- JSON -->
@@ -182,7 +181,6 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20180813</version>
-            <scope>compile</scope>
         </dependency>
 
         <!-- Lombok -->
@@ -190,6 +188,14 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.8</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- JetBrains Not Null -->
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>13.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
